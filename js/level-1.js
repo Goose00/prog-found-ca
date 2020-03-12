@@ -1,9 +1,16 @@
 // question 1
+var pet = "dog";
 
-
+console.log(pet);
 
 // question 2
+var person = {
+    name: "alan",
+    age: 34
 
+};
+
+console.log(person);
 
 
 // question 3
