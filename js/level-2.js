@@ -1,39 +1,20 @@
 // question 1
-
-
+for(var i = 15; i <= 25; i++) {
+    if (i % 2 === 0) console.log(i);
+}
 
 // question 2
+function iAmFunction(innerFunction) {
+    console.log("I am a function" + innerFunction);
+}
 
+var innerFunction = iAmFunction;
 
+function outerFunction(outsideFunction) {
+    (outsideFunction)(". That is what I am");
+}
 
-// question 3
+outerFunction("innerFunction");
 
-
-
-// question 4
-
-
-
-// question 5
-
-
-
-// question 6
-
-
-
-// question 7
-
-
-
-// question 8
-
-
-
-// question 9
-
-
-
-// question 10
-
-
+/*Tried Answering question 2 but didn´t
+manage to complete */
